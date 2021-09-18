@@ -1,94 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 * {
 	box-sizing: border-box;
 }
-
-body {
-  background: #e0e0e0;
-  font-family: 'Josefin Sans', cursive;
+body{
+    background-color: #0c4783;
 }
-
-.item {
-    display: flex;
-    align-items: center;
-    height: 40px;
-}
-.button {
-    border: none;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    margin-left: 10px;
-    transition: background .3s;
-    -webkit-transition: background .3s;
-    -moz-transition: background .3s;
-    -ms-transition: background .3s;
-    -o-transition: background .3s;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #ccc;
-}
-.add {
-    background-color: #e0e0e0;
-}
-.like {
-    background-color: #ff9fa4;
-}
-.delete {
-    background-color: #a6e2f5;
-}
-.input-box {
-    float: left;
-    border: 1px solid #ccc;
-    max-width: 250px;
-    width: 100%;
-    padding: 10px;
+.songs-wrapper{
+    background-color: #ebeced;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2%;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    font-family: 'Josefin Sans', cursive;
 }
-.count-title span {
-    color: #646464;
-    font-weight: bold;
-}
-.like-icon {
-    height: 100%;
-    margin-left: 10px;
-}
-.songs-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  /* margin: 0 -2px; */
-  
-}
-.item-inner {
-  /*margin: 2px;*/
-  padding: 10px;
-  background: #ffffff;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  -webkit-box-shadow: 0px -2px 15px -3px rgba(34, 60, 80, 0.6);
-  -moz-box-shadow: 0px -2px 15px -3px rgba(34, 60, 80, 0.6);
-  box-shadow: 0px -2px 15px -3px rgba(34, 60, 80, 0.6);
-  transition: box-shadow .3s;
-  -webkit-transition: box-shadow .3s;
-  -moz-transition: box-shadow .3s;
-  -ms-transition: box-shadow .3s; 
-  -o-transition: box-shadow .3s;
 
+span{
+    font-weight: 700;
 }
-.item-inner:hover {
-  box-shadow: none;
+.count-title{
+    text-align: center;
+    color: #ebeced;
 }
-.songs-item {
-  padding: 5px;
-  width: 33.33%;
+.control{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
