@@ -1,0 +1,31 @@
+.Songs__item {
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 25%;
+    max-width: 320px;
+    margin-bottom: 10px;
+}
+.BtnDel { 
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Info { margin-bottom: 10px; }
+
+.Song_info {
+    display: flex;
+    flex-direction: column;
+}
+.Song_info p {
+    margin-bottom: 5px;
+}
+.LikeNoActive {
+    height: 100%;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+}

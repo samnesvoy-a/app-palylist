@@ -1,0 +1,85 @@
+.CreateButton {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    transition: background .3s, color .3s;
+    -webkit-transition: background .3s, color .3s;
+    -moz-transition: background .3s, color .3s;
+    -ms-transition: background .3s, color .3s;
+    -o-transition: background .3s, color .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.CreateButton:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.OpenModal {
+    background-color: #ffffff;
+    display: flex;
+    border: 1px solid #000000;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background .3s, color .3s;
+    -webkit-transition: background .3s, color .3s;
+    -moz-transition: background .3s, color .3s;
+    -ms-transition: background .3s, color .3s;
+    -o-transition: background .3s, color .3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.OpenModal:hover {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.DeleteSong{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.DeleteSong:hover {
+    background-color: rgb(236, 127, 127);
+}
+.setLike {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: box-shadow .3s, color .3s;
+    -webkit-transition: box-shadow .3s, color .3s;
+    -moz-transition: box-shadow .3s, color .3s;
+    -ms-transition: box-shadow .3s, color .3s;
+    -o-transition: box-shadow .3s, color .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    padding: 10px;
+    background-color: #fff;
+}
+.setLike:hover {
+    background-color: rgb(0, 255, 0);
+}

@@ -2,10 +2,12 @@ import SongsItem from './SongsItem'
 
 function SongsList({ songs, deleteSong }){
     return(
+
         <div className="songs-wrapper">
+            
             {
                 songs.length
-                ? <div>
+                ? <div className="songs-inner">
                     {
                         songs.map(songsItem => <SongsItem
                             song={songsItem}
@@ -16,6 +18,7 @@ function SongsList({ songs, deleteSong }){
                     </div>
                 : <h1 style={ {textAlign: 'center'} }>Not Found any Songs</h1>
             }
+
         </div>
     );
 }

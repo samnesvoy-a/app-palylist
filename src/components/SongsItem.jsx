@@ -12,12 +12,11 @@ function SongsItem({ song }) {
             <div className={classes.Name}>
                 <div className={classes.Song_info}>
                     <p><span>{song.id}</span></p>
-                    <p>{song.name}</p>
-                   
+                    <p>{song.name}</p>  
                 </div>
             </div>
             <div className={classes.Info}>
-                <div className={classes.Song_info}>
+                <div className={classes.Song_info}> 
                     <p><span>Author:</span> {song.author}</p>
                     <p><span>Album:</span> {song.albumName}</p>
                 </div>

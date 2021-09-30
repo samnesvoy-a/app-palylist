@@ -35,6 +35,16 @@ export const initialSongs = [{
     releaseDate: 'N.A',
     albumName: 'N.A',
     isLiked: false,
-}];
+},{
+    id: 6,
+    name: 'We Got the Movies',
+    author: 'Eskimo Callboy',
+    releaseDate: '3.09.2021',
+    albumName: 'N.A',
+    isLiked: false,
+    }
+];
+
+
 
 // export default initialSongs;

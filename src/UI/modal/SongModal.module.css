@@ -1,0 +1,29 @@
+.songModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.748);
+}
+
+.create__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.songModalContent {
+   background: white;
+   border-radius: 16px;
+   min-width: 450px;
+   padding: 20px;
+   /* width: 100%; */
+}
+  
+.songModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
